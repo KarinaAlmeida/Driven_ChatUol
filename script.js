@@ -56,7 +56,7 @@ function printarMensagens (array) {
     if (msg.type === 'status') {
         divDosPosts =
             `<div class= "${msg.type}" >
-                <p><em>(${msg.time})</em> <b>${msg.from}</b> para <b> ${msg.to} </b>: ${msg.text}</p>
+                <p><em>(${msg.time})</em> <b>${msg.from}</b> ${msg.text}</p>
             </div>`
 
      } else if (msg.type === "message") {
