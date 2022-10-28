@@ -32,9 +32,57 @@ body {
 }
 
 /*ÁREA DE MENSAGENS*/
-.areaDeMensagens {
-    margin-top:120px;
+.input-nome {
+    width: 260px;
+    height: 54px;
+    margin: 0 auto;
+    border-radius: 4px;
+    border: solid 1px #d7d7d7;
+    text-align: center;
+    font-size: 18px;
+    color: #aeaeae;
 }
+
+.batePapo {
+    background-color: #e5e5e5;
+    height: 100%;
+    min-height: calc(100vh - 160px);
+    margin: 120px 0;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.batePapo p {
+    font-weight: 400;
+}
+
+.batePapo b {
+    font-weight: 700;
+}
+
+.batePapo em {
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.status{
+    background-color: #DCDCDC;
+}
+
+.message{
+    background-color: #FFFFFF;
+}
+
+.private_message{
+    background-color: #FFDEDE;
+}
+.batePapo div {
+    padding: 12px 8px;
+    margin: 6px 0;
+    word-break: break-all;
+}
+
+
 
 
 
@@ -70,8 +118,9 @@ body {
     color: #000000;
 }
 
-/*.base input:focus, textarea:focus, selec:focus {
-    outline: none;
-}*/ 
+.esconde {
+    display: none;
+}
+
 
 
