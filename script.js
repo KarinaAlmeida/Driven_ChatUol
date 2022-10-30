@@ -25,7 +25,7 @@ function nomeErrado(sinal) {
         alert (`Esse user não está disponível! Tente novamente`);
         começar();
     } else {
-        alert (`Puxa! Encontramos o erro ${status} !`);
+        alert (`Encontramos o erro ${status} ! Tente de novo!`);
     }
 }
 
@@ -104,6 +104,21 @@ function enviarMensagem () {
 
     }
 }
+
+
+//fazer enviar msg com enter
+
+document.addEventListener("keypress", function(enviarMensagem) {
+    if(enviarMensagem.key === 'Enter') {
+    
+        const btn = document.querySelector(".ion");
+      
+      btn.click();
+    
+    }
+  });
+
+
 
 //manter um scroll automatico
 
